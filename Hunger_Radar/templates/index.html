@@ -1,0 +1,191 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <title>
+    Hungry Radar
+  </title>
+  <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no'
+    name='viewport' />
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,200" rel="stylesheet" />
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet">
+  <link href="./static/css/bootstrap.min.css" rel="stylesheet" />
+  <!-- Paper Dashboard Template: https://github.com/creativetimofficial/paper-dashboard -->
+  <link href="./static/css/paper-dashboard.css?v=2.0.1" rel="stylesheet" />
+  <link rel="stylesheet" type="text/css" href="../static/css/main.css">
+  <link rel="shortcut icon" href="#">
+</head>
+
+<body class="">
+  <div class="wrapper ">
+    <div class="main-panel" style="width: 100%;">
+      <nav class="navbar navbar-expand-lg navbar-absolute fixed-top navbar-transparent">
+        <div class="container-fluid">
+          <div class="navbar-wrapper">
+            <h3><i class="nc-icon nc-planet"></i>  Hungry Radar</h3>
+          </div>
+        </div>
+      </nav>
+      <div class="content">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="row">
+              <div class="card">
+                <div class="card-header">
+                  <h4 class="card-title"><i class="nc-icon nc-map-big  text-warning"></i> Boston Metropolitan Area Map
+                  </h4>
+                </div>
+                <div class="card-body">
+                  <div id="choropleth"></div>
+                </div>
+              </div>
+          </div>
+            <div class="row">
+                <div class="card city-list">
+                  <div class="card-header">
+                    <h4 class="card-title"><i class="nc-icon nc-pin-3  text-warning"></i> Boston Metropolitan Area Cities
+                    </h4>
+                  </div>
+                  <div class="card-body">
+                    <div class="table-responsive table-cities-list">
+                      <table class="table">
+                        <thead class=" text-primary">
+                          <th>
+                            City
+                          </th>
+                          <th>
+                            Restaurant Count
+                          </th>
+                          <th class="text-right">
+                            Average Yelp Stars
+                          </th>
+                          <th class="text-right">
+                            Our Average Review Score
+                          </th>
+                        </thead>
+                        <tbody id="table-cities">
+                        </tbody>
+                      </table>
+                    </div>
+                  </div>
+                </div>
+            </div>
+          </div>
+          <div class="col-md-8">
+            <div class="row">
+              <div class="col-md-12">
+                <div class="card city-info city-title">
+                  <div class="card-header">
+                    <div class="box" id="city-color"></div>
+                    <div class="font-weight-bold" id="selected-city">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-6">
+                <div class="card city-info">
+                  <div class="card-header">
+                    <h4 class="card-title"><i class="nc-icon nc-chart-pie-36 text-success"></i> Restaurant Count for Each
+                      Category</h4>
+                  </div>
+                  <div class="card-body">
+                    <div id="pieChart"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="card city-info">
+                  <div class="card-header">
+                    <h4 class="card-title"><i class="nc-icon nc-chart-bar-32 text-primary"></i> Average Review Score per
+                      Cagetory</h4>
+                  </div>
+                  <div class="card-body">
+                    <div id="barChart"></div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+            <div class="row">
+              <div class="col-md-6">
+                <div class="card city-info">
+                  <div class="card-header">
+                    <h4 class="card-title"><i class="nc-icon nc-trophy text-danger"></i> Top 5 Restaurants with the
+                      Highest Review Score</h4>
+                  </div>
+                  <div class="card-body">
+                    <div class="table-responsive">
+                      <table class="table">
+                        <thead class=" text-primary">
+                          <th>
+                            Name
+                          </th>
+                          <th>
+                            Category
+                          </th>
+                          <th>
+                            Address
+                          </th>
+                          <th class="text-right">
+                            Yelp Stars
+                          </th>
+                          <th class="text-right">
+                            Our Review Score
+                          </th>
+                        </thead>
+                        <tbody id="table-body">
+                        </tbody>
+                      </table>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-6">
+                <div class="card city-info">
+                  <div class="card-header">
+                    <h4 class="card-title"><i class="nc-icon nc-sound-wave text-info"></i> Fake Reviews vs True Reviews</h4>
+                  </div>
+                  <div class="card-body">
+                    <div id="fakePieChart">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        </div>
+      </div>
+      <footer class="footer footer footer-black  footer-white">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="credits ml-auto">
+              <span class="copyright">
+                Created by <b>Team DNA Reformation</b>
+              </span>
+            </div>
+          </div>
+        </div>
+      </footer>
+
+    </div>
+    <!-- Core JS Files -->
+    <script type="text/javascript" src="./static/js/core/jquery.min.js"></script>
+    <script type="text/javascript" src="./static/js/core/popper.min.js"></script>
+    <script type="text/javascript" src="./static/js/core/bootstrap.min.js"></script>
+    <script type="text/javascript" src="./static/js/core/d3.min.js"></script>
+    <!-- D3 JS plugins -->
+    <script type="text/javascript" src="./static/js/plugins/topojson.v3.min.js"></script>
+    <script type="text/javascript" src="./static/js/plugins/d3-collection.v1.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/d3-legend/2.13.0/d3-legend.js"></script>\
+    <!-- JS file for Index page -->
+    <script type="text/javascript" src="./static/js/index.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,562 @@
+city,categories,count
+BOSTON,American,924
+BOSTON,Others,456
+BOSTON,Coffee & Tea,335
+BOSTON,Italian,320
+BOSTON,Fast Food,319
+BOSTON,Asian Fusion,239
+CAMBRIDGE,American,229
+CAMBRIDGE,Others,132
+BOSTON,Chinese,130
+CAMBRIDGE,Coffee & Tea,105
+CAMBRIDGE,Asian Fusion,105
+SOMERVILLE,American,93
+QUINCY,American,90
+SALEM,American,77
+SOMERVILLE,Others,73
+CAMBRIDGE,Italian,71
+NEWTON,American,68
+WALTHAM,American,63
+CAMBRIDGE,Fast Food,58
+PEABODY,American,56
+WOBURN,American,54
+BRAINTREE,American,52
+SOMERVILLE,Italian,51
+BEVERLY,American,51
+DORCHESTER,American,51
+BURLINGTON,American,51
+SOMERVILLE,Coffee & Tea,50
+NATICK,American,49
+BOSTON,Pubs & Bars,48
+DANVERS,American,46
+QUINCY,Chinese,44
+SOMERVILLE,Asian Fusion,43
+WEYMOUTH,American,42
+LYNN,American,42
+BROOKLINE,Asian Fusion,42
+DEDHAM,American,42
+QUINCY,Others,41
+QUINCY,Italian,40
+BROOKLINE,American,40
+ALLSTON,Asian Fusion,39
+MEDFORD,American,39
+NEWTON,Others,39
+NORWOOD,American,39
+QUINCY,Asian Fusion,39
+SAUGUS,American,38
+WATERTOWN,American,38
+MEDFORD,Italian,37
+SOMERVILLE,Fast Food,36
+REVERE,American,36
+MALDEN,Italian,35
+BROOKLINE,Others,35
+SALEM,Fast Food,34
+MALDEN,American,33
+NEWTON,Coffee & Tea,32
+SALEM,Italian,32
+ALLSTON,American,32
+ROXBURY,American,31
+WALTHAM,Fast Food,30
+BROOKLINE,Coffee & Tea,30
+SAUGUS,Italian,30
+LYNN,Others,30
+REVERE,Others,29
+REVERE,Italian,29
+PEABODY,Fast Food,29
+JAMAICA PLAIN,American,29
+WALTHAM,Italian,28
+MALDEN,Others,28
+WALTHAM,Others,28
+BRIGHTON,American,28
+BILLERICA,American,28
+WEYMOUTH,Italian,28
+NEWTON,Fast Food,27
+NEWTON,Italian,27
+STOUGHTON,American,27
+QUINCY,Fast Food,27
+BROOKLINE,Italian,27
+NEWTON,Asian Fusion,26
+EVERETT,Others,26
+BEVERLY,Italian,25
+WALTHAM,Asian Fusion,25
+MALDEN,Chinese,25
+MARBLEHEAD,American,25
+HOLBROOK,American,24
+LYNN,Italian,24
+WAKEFIELD,Italian,24
+CANTON,American,24
+ARLINGTON,Asian Fusion,24
+DORCHESTER,Others,24
+CAMBRIDGE,Chinese,24
+LYNN,Fast Food,23
+PEABODY,Others,23
+DORCHESTER,Italian,23
+ALLSTON,Others,23
+SALEM,Others,23
+RANDOLPH,American,23
+ROXBURY,Others,23
+ROSLINDALE,American,23
+EVERETT,American,23
+JAMAICA PLAIN,Coffee & Tea,23
+NORWOOD,Italian,23
+BURLINGTON,Asian Fusion,23
+SOMERVILLE,Chinese,23
+BROOKLINE,Fast Food,22
+BEVERLY,Others,22
+ARLINGTON,Italian,22
+WATERTOWN,Others,22
+NATICK,Italian,22
+QUINCY,Coffee & Tea,21
+HINGHAM,American,21
+NATICK,Others,21
+BRIGHTON,Italian,21
+WOBURN,Fast Food,21
+ALLSTON,Coffee & Tea,21
+WATERTOWN,Fast Food,20
+ROXBURY,Fast Food,20
+WAKEFIELD,American,20
+DANVERS,Italian,20
+MEDFORD,Fast Food,20
+EVERETT,Italian,20
+PEABODY,Italian,20
+DORCHESTER,Asian Fusion,20
+BURLINGTON,Others,20
+ARLINGTON,Others,20
+BROOKLINE,Chinese,19
+MALDEN,Asian Fusion,19
+WATERTOWN,Italian,19
+BEVERLY,Coffee & Tea,19
+NORWOOD,Others,18
+ARLINGTON,American,18
+BEVERLY,Fast Food,18
+DANVERS,Fast Food,18
+SALEM,Coffee & Tea,18
+NEEDHAM,Others,18
+BURLINGTON,Italian,17
+WATERTOWN,Asian Fusion,17
+NEWTON,Chinese,17
+JAMAICA PLAIN,Others,17
+WOBURN,Italian,17
+ROSLINDALE,Others,17
+NATICK,Coffee & Tea,17
+MEDFORD,Others,17
+BILLERICA,Fast Food,17
+LYNN,Coffee & Tea,17
+BRIGHTON,Fast Food,17
+SAUGUS,Fast Food,16
+NATICK,Fast Food,16
+STONEHAM,American,16
+BEDFORD,American,16
+FRAMINGHAM,American,16
+READING,Fast Food,16
+WEYMOUTH,Others,16
+RANDOLPH,Italian,16
+BRIGHTON,Coffee & Tea,16
+WOBURN,Asian Fusion,16
+SWAMPSCOTT,American,15
+WEYMOUTH,Fast Food,15
+ARLINGTON,Fast Food,15
+NEEDHAM,American,15
+ROXBURY,Coffee & Tea,15
+WILMINGTON,American,15
+BRAINTREE,Asian Fusion,15
+PEABODY,Coffee & Tea,15
+JAMAICA PLAIN,Italian,15
+LEXINGTON,American,15
+LEXINGTON,Asian Fusion,15
+DORCHESTER,Chinese,15
+NEEDHAM,Fast Food,15
+MALDEN,Fast Food,15
+WOBURN,Others,15
+CHELSEA,Others,15
+CHESTNUT HILL,American,15
+WALTHAM,Coffee & Tea,15
+BELMONT,Coffee & Tea,15
+WALPOLE,American,15
+DEDHAM,Others,15
+READING,American,15
+CONCORD,American,15
+BRAINTREE,Fast Food,15
+MEDFORD,Coffee & Tea,14
+LYNN,Asian Fusion,14
+MIDDLETON,American,14
+NORTH READING,American,14
+ROXBURY,Italian,14
+MEDFORD,Chinese,14
+ALLSTON,Fast Food,14
+SALEM,Chinese,14
+WELLESLEY,American,14
+HOLBROOK,Italian,14
+JAMAICA PLAIN,Fast Food,14
+STOUGHTON,Italian,14
+CHELSEA,American,13
+RANDOLPH,Asian Fusion,13
+BRIGHTON,Asian Fusion,13
+CHARLESTOWN,American,13
+DORCHESTER,Fast Food,13
+BRAINTREE,Others,13
+ALLSTON,Chinese,13
+WALTHAM,Chinese,13
+EVERETT,Fast Food,13
+NATICK,Asian Fusion,13
+ALLSTON,Italian,13
+BURLINGTON,Coffee & Tea,13
+NORWOOD,Coffee & Tea,13
+CANTON,Fast Food,13
+BELMONT,Others,13
+WILMINGTON,Fast Food,13
+REVERE,Fast Food,13
+LYNNFIELD,American,12
+BRAINTREE,Italian,12
+NORWOOD,Asian Fusion,12
+WELLESLEY,Fast Food,12
+CHELSEA,Italian,12
+PEABODY,Chinese,12
+ROSLINDALE,Italian,12
+SAUGUS,Others,12
+HYDE PARK,American,12
+ROXBURY,Asian Fusion,11
+MELROSE,Italian,11
+BELMONT,Italian,11
+RANDOLPH,Others,11
+MARBLEHEAD,Coffee & Tea,11
+SALEM,Asian Fusion,11
+WINTHROP,Italian,11
+MEDFORD,Asian Fusion,11
+WILMINGTON,Italian,11
+MELROSE,American,11
+BURLINGTON,Fast Food,11
+JAMAICA PLAIN,Asian Fusion,11
+DEDHAM,Italian,11
+WELLESLEY,Coffee & Tea,11
+DEDHAM,Fast Food,11
+HOLBROOK,Others,11
+CONCORD,Italian,11
+WAKEFIELD,Asian Fusion,11
+HINGHAM,Coffee & Tea,11
+WELLESLEY,Italian,11
+ARLINGTON,Chinese,10
+ARLINGTON,Coffee & Tea,10
+LEXINGTON,Italian,10
+TEWKSBURY,American,10
+NORWELL,American,10
+NORWOOD,Fast Food,10
+MATTAPAN,Others,10
+COHASSET,American,10
+BELMONT,Asian Fusion,10
+TEWKSBURY,Italian,10
+WELLESLEY,Others,10
+BRIGHTON,Chinese,10
+BRIGHTON,Others,10
+BILLERICA,Italian,10
+PEABODY,Asian Fusion,10
+WEYMOUTH,Chinese,10
+DANVERS,Coffee & Tea,9
+WINTHROP,American,9
+WAYLAND,American,9
+CHESTNUT HILL,Italian,9
+SAUGUS,Coffee & Tea,9
+WINCHESTER,Coffee & Tea,9
+READING,Italian,9
+BRAINTREE,Chinese,9
+HOLBROOK,Fast Food,9
+WAKEFIELD,Coffee & Tea,9
+WEYMOUTH,Asian Fusion,9
+NEEDHAM,Italian,9
+MARBLEHEAD,Italian,9
+ROSLINDALE,Fast Food,9
+STONEHAM,Asian Fusion,9
+STONEHAM,Fast Food,9
+STONEHAM,Italian,9
+ROXBURY,Chinese,9
+BEDFORD,Fast Food,9
+EVERETT,Chinese,9
+DORCHESTER,Coffee & Tea,9
+WOBURN,Chinese,8
+READING,Coffee & Tea,8
+NATICK,Chinese,8
+NORWOOD,Chinese,8
+NEEDHAM,Coffee & Tea,8
+WATERTOWN,Coffee & Tea,8
+HINGHAM,Fast Food,8
+BEVERLY,Chinese,8
+WINCHESTER,American,8
+WESTWOOD,Coffee & Tea,8
+STOUGHTON,Others,8
+LYNN,Chinese,8
+BILLERICA,Chinese,8
+DEDHAM,Coffee & Tea,8
+DANVERS,Others,8
+HINGHAM,Others,8
+CANTON,Italian,8
+CONCORD,Coffee & Tea,8
+WAKEFIELD,Fast Food,8
+COHASSET,Italian,8
+CHELSEA,Fast Food,8
+WATERTOWN,Chinese,8
+HINGHAM,Italian,8
+CONCORD,Fast Food,7
+CANTON,Others,7
+CAMBRIDGE,Pubs & Bars,7
+WAKEFIELD,Others,7
+EVERETT,Asian Fusion,7
+WELLESLEY,Asian Fusion,7
+STOUGHTON,Fast Food,7
+BELMONT,American,7
+BROCKTON,Italian,7
+BEDFORD,Asian Fusion,7
+REVERE,Chinese,7
+REVERE,Coffee & Tea,7
+MELROSE,Fast Food,7
+BELMONT,Fast Food,7
+MARBLEHEAD,Others,7
+ROSLINDALE,Chinese,7
+BEVERLY,Asian Fusion,7
+RANDOLPH,Fast Food,7
+MALDEN,Coffee & Tea,7
+WINCHESTER,Italian,7
+WEYMOUTH,Coffee & Tea,7
+WINCHESTER,Others,7
+WINTHROP,Coffee & Tea,7
+LEXINGTON,Fast Food,7
+SAUGUS,Asian Fusion,7
+SAUGUS,Chinese,7
+NORWELL,Italian,7
+SWAMPSCOTT,Fast Food,6
+SWAMPSCOTT,Italian,6
+SWAMPSCOTT,Coffee & Tea,6
+WAKEFIELD,Chinese,6
+WINCHESTER,Fast Food,6
+WINTHROP,Others,6
+STOUGHTON,Chinese,6
+WESTWOOD,American,6
+WOBURN,Coffee & Tea,6
+WESTWOOD,Italian,6
+MELROSE,Asian Fusion,6
+LYNNFIELD,Italian,6
+DANVERS,Chinese,6
+MELROSE,Coffee & Tea,6
+MIDDLETON,Italian,6
+CHESTNUT HILL,Others,6
+MATTAPAN,American,6
+MILTON,Italian,6
+BROCKTON,American,6
+BEDFORD,Italian,6
+MARBLEHEAD,Fast Food,6
+LYNNFIELD,Others,6
+COHASSET,Others,6
+HINGHAM,Asian Fusion,6
+BILLERICA,Coffee & Tea,6
+HYDE PARK,Others,6
+BILLERICA,Others,6
+BILLERICA,Asian Fusion,6
+LEXINGTON,Coffee & Tea,6
+JAMAICA PLAIN,Chinese,6
+HYDE PARK,Italian,5
+MELROSE,Chinese,5
+TEWKSBURY,Chinese,5
+HOLBROOK,Coffee & Tea,5
+BRAINTREE,Coffee & Tea,5
+FRAMINGHAM,Others,5
+SOMERVILLE,Pubs & Bars,5
+ROSLINDALE,Asian Fusion,5
+FRAMINGHAM,Fast Food,5
+STONEHAM,Chinese,5
+FRAMINGHAM,Italian,5
+LYNNFIELD,Coffee & Tea,5
+HYDE PARK,Fast Food,5
+TEWKSBURY,Asian Fusion,5
+CHELSEA,Coffee & Tea,5
+WAYLAND,Fast Food,5
+NORTH READING,Italian,5
+NEEDHAM,Asian Fusion,5
+CHARLESTOWN,Fast Food,5
+BURLINGTON,Chinese,5
+SUDBURY,American,4
+BROOKLINE,Pubs & Bars,4
+FRAMINGHAM,Asian Fusion,4
+AVON,American,4
+CHARLESTOWN,Italian,4
+CHARLESTOWN,Coffee & Tea,4
+STOUGHTON,Asian Fusion,4
+WINCHESTER,Asian Fusion,4
+RANDOLPH,Chinese,4
+ALLSTON,Pubs & Bars,4
+CHELSEA,Chinese,4
+LEXINGTON,Others,4
+WAYLAND,Italian,4
+LEXINGTON,Chinese,4
+NORTH READING,Fast Food,4
+CANTON,Asian Fusion,4
+NORWELL,Coffee & Tea,4
+WELLESLEY,Chinese,4
+CANTON,Coffee & Tea,4
+HOLBROOK,Chinese,4
+BEVERLY,Pubs & Bars,4
+ROSLINDALE,Coffee & Tea,4
+MILTON,Others,4
+NORWELL,Asian Fusion,4
+DANVERS,Asian Fusion,4
+MIDDLETON,Coffee & Tea,4
+MELROSE,Others,4
+WESTWOOD,Others,4
+WALPOLE,Others,4
+READING,Others,4
+REVERE,Asian Fusion,4
+MATTAPAN,Italian,4
+WILMINGTON,Coffee & Tea,4
+CHESTNUT HILL,Coffee & Tea,4
+BEDFORD,Coffee & Tea,4
+DEDHAM,Chinese,4
+SWAMPSCOTT,Asian Fusion,4
+EVERETT,Coffee & Tea,4
+WESTON,American,3
+WILMINGTON,Asian Fusion,3
+CHARLESTOWN,Others,3
+COHASSET,Fast Food,3
+WESTWOOD,Fast Food,3
+CHARLESTOWN,Chinese,3
+SWAMPSCOTT,Others,3
+TEWKSBURY,Others,3
+SWAMPSCOTT,Chinese,3
+CHESTNUT HILL,Fast Food,3
+DEDHAM,Asian Fusion,3
+WAYLAND,Asian Fusion,3
+STONEHAM,Coffee & Tea,3
+WALPOLE,Italian,3
+NORTH READING,Others,3
+WILMINGTON,Chinese,3
+ROCKLAND,Italian,3
+ROCKLAND,American,3
+MATTAPAN,Chinese,3
+MATTAPAN,Fast Food,3
+WINTHROP,Chinese,3
+READING,Chinese,3
+READING,Asian Fusion,3
+RANDOLPH,Coffee & Tea,3
+MIDDLETON,Fast Food,3
+QUINCY,Pubs & Bars,3
+MILTON,American,3
+WINTHROP,Fast Food,3
+MILTON,Coffee & Tea,3
+AVON,Italian,3
+NEEDHAM,Chinese,3
+NORTH READING,Coffee & Tea,3
+ROCKLAND,Asian Fusion,3
+CANTON,Chinese,3
+WINCHESTER,Chinese,3
+MARBLEHEAD,Asian Fusion,3
+BELMONT,Chinese,3
+HYDE PARK,Coffee & Tea,3
+SALEM,Pubs & Bars,3
+CHESTNUT HILL,Asian Fusion,2
+WALPOLE,Chinese,2
+WALPOLE,Coffee & Tea,2
+WALPOLE,Fast Food,2
+MIDDLETON,Others,2
+WEYMOUTH,Pubs & Bars,2
+WESTON,Fast Food,2
+LINCOLN,American,2
+PEABODY,Pubs & Bars,2
+CHESTNUT HILL,Chinese,2
+MARBLEHEAD,Chinese,2
+AVON,Fast Food,2
+COHASSET,Coffee & Tea,2
+NAHANT,American,2
+NAHANT,Others,2
+AUBURNDALE,Coffee & Tea,2
+JEFFRIES POINT,American,2
+AUBURNDALE,American,2
+WAYLAND,Chinese,2
+WAYLAND,Coffee & Tea,2
+WAYLAND,Others,2
+NORWELL,Fast Food,2
+WOLLASTON,American,2
+SUDBURY,Asian Fusion,2
+WALPOLE,Asian Fusion,2
+WESTWOOD,Asian Fusion,2
+BROCKTON,Fast Food,2
+ROCKLAND,Fast Food,2
+BEDFORD,Others,2
+LYNNFIELD,Fast Food,2
+DOVER,Fast Food,2
+DORCHESTER,Pubs & Bars,2
+BRIGHTON,Pubs & Bars,2
+LYNNFIELD,Chinese,2
+LINCOLN,Coffee & Tea,2
+TEWKSBURY,Coffee & Tea,2
+TEWKSBURY,Fast Food,2
+WINTHROP,Asian Fusion,2
+MEDFIELD,Others,2
+FRAMINGHAM,Pubs & Bars,2
+BROCKTON,Others,2
+WESTWOOD,Chinese,2
+LYNN,Pubs & Bars,2
+SAUGUS,Pubs & Bars,2
+CONCORD,Chinese,2
+MIDDLETON,Chinese,2
+ANDOVER,Coffee & Tea,1
+BROCKTON,Chinese,1
+WOBURN,Pubs & Bars,1
+BILLERICA,Pubs & Bars,1
+ARLINGTON,Pubs & Bars,1
+BEDFORD,Chinese,1
+WESTON,Coffee & Tea,1
+WILMINGTON,Others,1
+BACK BAY,Others,1
+AUBURNDALE,Fast Food,1
+WESTON,Chinese,1
+AVON,Others,1
+SUDBURY,Coffee & Tea,1
+CANTON,Pubs & Bars,1
+CARLISLE,American,1
+ROXBURY,Pubs & Bars,1
+LINCOLN,Italian,1
+LYNNFIELD,Asian Fusion,1
+MALDEN,Pubs & Bars,1
+ROCKPORT,Coffee & Tea,1
+ROCKLAND,Chinese,1
+REVERE,Pubs & Bars,1
+MATTAPAN,Asian Fusion,1
+MEDFIELD,Coffee & Tea,1
+MEDFIELD,Fast Food,1
+MIDDLETON,Asian Fusion,1
+MILTON,Chinese,1
+MILTON,Fast Food,1
+MISSION HILL,Coffee & Tea,1
+NAHANT,Italian,1
+NANTASKET BEACH,American,1
+NORWOOD,Pubs & Bars,1
+NEWTON,Pubs & Bars,1
+NORTH ANDOVER,Italian,1
+NORTH READING,Asian Fusion,1
+NORTH READING,Chinese,1
+NORWELL,Others,1
+NORWELL,Chinese,1
+LINCOLN,Asian Fusion,1
+LEXINGTON,Pubs & Bars,1
+HYDE PARK,Pubs & Bars,1
+WABAN,American,1
+CHARLESTOWN,Asian Fusion,1
+CHELSEA,Asian Fusion,1
+WALTHAM,Pubs & Bars,1
+COHASSET,Asian Fusion,1
+COHASSET,Chinese,1
+WAKEFIELD,Pubs & Bars,1
+CONCORD,Asian Fusion,1
+CONCORD,Others,1
+WABAN,Others,1
+WABAN,Fast Food,1
+DANVERS,Pubs & Bars,1
+HYDE PARK,Chinese,1
+SUDBURY,Italian,1
+SUDBURY,Fast Food,1
+STOUGHTON,Coffee & Tea,1
+FRANKLIN,American,1
+HANOVER,Fast Food,1
+HANSCOM AIR FORCE BASE,Fast Food,1
+HANSCOM AIR FORCE BASE,Italian,1
+HINGHAM,Chinese,1
+HOLBROOK,Asian Fusion,1
+HYDE PARK,Asian Fusion,1
+WOLLASTON,Fast Food,1
